@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BBF73E1D4AA3D1000E1136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BBF73D1D4AA3D1000E1136 /* AppDelegate.swift */; };
+		F4BBF7401D4AA3D1000E1136 /* CircularMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BBF73F1D4AA3D1000E1136 /* CircularMotionViewController.swift */; };
+		F4BBF7431D4AA3D1000E1136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BBF7411D4AA3D1000E1136 /* Main.storyboard */; };
+		F4BBF7451D4AA3D1000E1136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BBF7441D4AA3D1000E1136 /* Assets.xcassets */; };
+		F4BBF7481D4AA3D1000E1136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BBF7461D4AA3D1000E1136 /* LaunchScreen.storyboard */; };
+		F4BBF7511D4AA534000E1136 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BBF7501D4AA534000E1136 /* CircleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4BBF73A1D4AA3D1000E1136 /* CircularMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BBF73D1D4AA3D1000E1136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4BBF73F1D4AA3D1000E1136 /* CircularMotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularMotionViewController.swift; sourceTree = "<group>"; };
+		F4BBF7421D4AA3D1000E1136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4BBF7441D4AA3D1000E1136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4BBF7471D4AA3D1000E1136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4BBF7491D4AA3D1000E1136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BBF7501D4AA534000E1136 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BBF7371D4AA3D1000E1136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BBF7311D4AA3D1000E1136 = {
+			isa = PBXGroup;
+			children = (
+				F4BBF73C1D4AA3D1000E1136 /* CircularMotion */,
+				F4BBF73B1D4AA3D1000E1136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BBF73B1D4AA3D1000E1136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BBF73A1D4AA3D1000E1136 /* CircularMotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BBF73C1D4AA3D1000E1136 /* CircularMotion */ = {
+			isa = PBXGroup;
+			children = (
+				F4BBF74F1D4AA3E9000E1136 /* Supporting Files */,
+				F4BBF73F1D4AA3D1000E1136 /* CircularMotionViewController.swift */,
+				F4BBF7411D4AA3D1000E1136 /* Main.storyboard */,
+				F4BBF7501D4AA534000E1136 /* CircleView.swift */,
+			);
+			path = CircularMotion;
+			sourceTree = "<group>";
+		};
+		F4BBF74F1D4AA3E9000E1136 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4BBF73D1D4AA3D1000E1136 /* AppDelegate.swift */,
+				F4BBF7441D4AA3D1000E1136 /* Assets.xcassets */,
+				F4BBF7461D4AA3D1000E1136 /* LaunchScreen.storyboard */,
+				F4BBF7491D4AA3D1000E1136 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BBF7391D4AA3D1000E1136 /* CircularMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BBF74C1D4AA3D1000E1136 /* Build configuration list for PBXNativeTarget "CircularMotion" */;
+			buildPhases = (
+				F4BBF7361D4AA3D1000E1136 /* Sources */,
+				F4BBF7371D4AA3D1000E1136 /* Frameworks */,
+				F4BBF7381D4AA3D1000E1136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularMotion;
+			productName = CircularMotion;
+			productReference = F4BBF73A1D4AA3D1000E1136 /* CircularMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BBF7321D4AA3D1000E1136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = RJS;
+				TargetAttributes = {
+					F4BBF7391D4AA3D1000E1136 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 88D8BJ8F2N;
+					};
+				};
+			};
+			buildConfigurationList = F4BBF7351D4AA3D1000E1136 /* Build configuration list for PBXProject "CircularMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BBF7311D4AA3D1000E1136;
+			productRefGroup = F4BBF73B1D4AA3D1000E1136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BBF7391D4AA3D1000E1136 /* CircularMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BBF7381D4AA3D1000E1136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BBF7481D4AA3D1000E1136 /* LaunchScreen.storyboard in Resources */,
+				F4BBF7451D4AA3D1000E1136 /* Assets.xcassets in Resources */,
+				F4BBF7431D4AA3D1000E1136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BBF7361D4AA3D1000E1136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BBF7511D4AA534000E1136 /* CircleView.swift in Sources */,
+				F4BBF7401D4AA3D1000E1136 /* CircularMotionViewController.swift in Sources */,
+				F4BBF73E1D4AA3D1000E1136 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4BBF7411D4AA3D1000E1136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BBF7421D4AA3D1000E1136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4BBF7461D4AA3D1000E1136 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BBF7471D4AA3D1000E1136 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4BBF74A1D4AA3D1000E1136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BBF74B1D4AA3D1000E1136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BBF74D1D4AA3D1000E1136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircularMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rjs.CircularMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4BBF74E1D4AA3D1000E1136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircularMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rjs.CircularMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BBF7351D4AA3D1000E1136 /* Build configuration list for PBXProject "CircularMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BBF74A1D4AA3D1000E1136 /* Debug */,
+				F4BBF74B1D4AA3D1000E1136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BBF74C1D4AA3D1000E1136 /* Build configuration list for PBXNativeTarget "CircularMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BBF74D1D4AA3D1000E1136 /* Debug */,
+				F4BBF74E1D4AA3D1000E1136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BBF7321D4AA3D1000E1136 /* Project object */;
+}

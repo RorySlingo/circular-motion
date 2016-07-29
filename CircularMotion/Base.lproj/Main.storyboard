@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Circular Motion View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CircularMotionViewController" customModule="CircularMotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wQb-BT-zKy" customClass="CircleView" customModule="CircularMotion" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ea-1T-cIl">
+                                <rect key="frame" x="285" y="540" width="30" height="30"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="incrementAngle" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jd4-KJ-9hJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wQb-BT-zKy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="I6i-ix-3cC"/>
+                            <constraint firstItem="7Ea-1T-cIl" firstAttribute="baseline" secondItem="wfy-db-euE" secondAttribute="top" constant="-40" id="OtR-oq-aGQ"/>
+                            <constraint firstItem="7Ea-1T-cIl" firstAttribute="centerX" secondItem="wQb-BT-zKy" secondAttribute="centerX" id="Q2L-3U-0tZ"/>
+                            <constraint firstItem="wQb-BT-zKy" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="eSb-lg-Oos"/>
+                            <constraint firstItem="wQb-BT-zKy" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="j7a-ID-IG5"/>
+                            <constraint firstItem="wQb-BT-zKy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="m94-2R-K4f"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cv" destination="wQb-BT-zKy" id="aQa-J9-MCC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="871" y="638"/>
+        </scene>
+    </scenes>
+</document>
