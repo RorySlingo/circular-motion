@@ -11,14 +11,19 @@ import UIKit
 class CircularMotionViewController: UIViewController {
 
     @IBOutlet weak var cv: CircleView!
+    @IBOutlet weak var angleInDegrees: UILabel!
     
+
     override func viewDidAppear(animated: Bool) {
         cv.moveCircle()
+        angleInDegrees.text = String(Int(cv.rotationAngle))
     }
+
     
     @IBAction func incrementAngle() {
         cv.rotationAngle += CGFloat(10)
         cv.moveCircle()
+        angleInDegrees.text = String(Int(cv.rotationAngle))
     }
 }
 

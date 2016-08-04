@@ -19,7 +19,11 @@ class CircleView: UIView {
         didSet { setNeedsDisplay() }
     }
     
-    var rotationAngle = CGFloat(270)
+    private var _rotationAngle = CGFloat(180)
+    var rotationAngle: CGFloat {
+        get { return _rotationAngle }
+        set { _rotationAngle = newValue % 360 }
+    }
     
     
     override func drawRect(rect: CGRect) {
@@ -48,7 +52,7 @@ class CircleView: UIView {
     
     
     func moveCircle(){
-        let angleInRadians = rotationAngle * CGFloat(M_PI) / 180
+        let angleInRadians = (rotationAngle + 270.0) * CGFloat(M_PI) / 180
         let x = centerX + ballDistanceFromCenter * cos(angleInRadians)
         let y = centerY + ballDistanceFromCenter * sin(angleInRadians)        
         ballPosition = CGPoint(x: x, y: y)
